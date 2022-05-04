@@ -8,5 +8,5 @@ No começo parecia que ia ser fácil e rápido para fazer essa landig page, mas 
 Tire bastante aprendizado desse desfio, pois tive que pesquisar algumas coisas que não sabia e, relembrar algumas skills que estavam enferrujadas também.
 
 ## Tecnologias ultilizadas
--HTML
--CSS
+- HTML
+- CSS
