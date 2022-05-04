@@ -219,13 +219,10 @@ main{
 } 
 
 .comentarios .comentario.quotes::before{
-    content: "";
-    background: url(../images/bg-quotes.png) no-repeat center;
+    content: url(../images/bg-quotes.png);
     position: absolute;
     top: -35px;
     left: -12px;
-    width: 60px;
-    height: 50px;
     z-index: -1;
 }
 
