@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+

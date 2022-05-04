@@ -1,0 +1,366 @@
+
+
+@media(max-width:1150px){
+    .rodape{
+        padding: 160px 60px 120px 60px;
+    }
+}
+
+@media(max-width:1050px){
+    .principal h1{
+        font-size: 35px;
+    }
+    .principal img{
+        width: 70%;
+    }
+    .principal p{
+        font-size: 17px;
+    }
+    .principal a{
+        padding: 18px;
+    }
+
+    .vantagens{
+        grid-template: repeat(4, 250px) / repeat(1, minmax(320px, 370px));
+        padding: 50px;
+    }
+
+    .produtividade .conteudo h2{
+        font-size: 35px;
+    }
+    .produtividade .conteudo p{
+        font-size: 15px;
+    }
+    
+    .comentarios{
+        flex-direction: column;
+        align-items: center;
+    }
+    .comentarios .comentario{
+        margin: 30px 0;
+    }
+    .comentario:last-child{
+        margin: 30px 0 250px 0; 
+    }
+
+    .cadastro{
+        max-width: 680px;
+    }
+    .cadastro .titulo{
+        font-size: 30px;
+    }
+    .cadastro .formulario a{
+        width: 27%;
+    }
+
+    .rodape{
+        padding: 160px 50px 120px 50px;
+        font-size: 14px;
+    }
+    .rodape .informacoes p{
+        width: 225px;
+    }
+}
+
+@media(max-width:885px){
+    .principal h1{
+        font-size: 30px;
+        width: 80%;
+    }
+    .principal p{
+        width: 50%;
+        font-size: 16px;
+    }
+
+    .produtividade{
+        flex-direction: column;
+        align-items: center;
+    }
+    .produtividade img{
+        margin: 100px 25px 30px 25px;
+        width: 60%;
+    }
+    .produtividade .conteudo {
+        width: 60%;
+        margin-bottom: 40px;
+    }
+    .produtividade .conteudo h2{
+        font-size: 30px;
+    }
+    .produtividade .conteudo a{
+        margin-bottom: 100px;
+    }
+
+    .cadastro{
+        max-width: 550px;
+    }
+    .cadastro .formulario a{
+        width: 32%;
+    }
+
+    .comentarios .comentario{
+        margin: 25px 0;
+    }
+    .comentario:last-child{
+        margin: 25px 0 250px 0; 
+    }
+
+    .rodape{
+        font-size: 16px;
+        padding: 160px 75px 120px 75px;
+    }
+    .rodape .informacoes{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 600px;
+    }
+    .rodape .informacoes p{
+        width: 300px;
+    }
+    .rodape .informacoes .contato{
+        padding-left: 40px;
+    }
+    .rodape .informacoes .social a:first-child{
+        margin-left: 0;
+    }
+    .rodape .atribuicao{
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:725px){
+    .cabecalho .logo{
+        padding: 20px;
+    }
+    .cabecalho .logo img{
+        width: 150px;
+    }
+    .cabecalho .menu{
+        padding: 20px;
+    }
+    .cabecalho .menu li{
+        font-size: 16px;
+    }
+
+    .principal h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .comentario:last-child{
+        margin: 25px 0 300px 0; 
+    }
+
+    .cadastro{
+        max-width: 460px;
+        height: 255px;
+    }
+    .cadastro .formulario{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cadastro .formulario input{
+        width:90%;
+        margin: 15px 0;
+        padding: 15px;
+    }
+    .cadastro .formulario a{
+        width:90%;
+        padding: 15px;
+    }
+}
+
+@media(max-width:620px){
+    .cabecalho .logo img{
+        width: 130px;
+    }
+    .cabecalho .menu li{
+        margin: 0 15px;
+    }
+
+    .cadastro{
+        max-width: 370px;
+    }
+
+    .produtividade img{
+        width: 70%;
+    }
+    .produtividade .conteudo{
+        width: 80%;
+    }
+
+    .rodape .atribuicao{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:490px){
+    .cabecalho .logo img{
+        width: 120px;
+    }
+    .cabecalho .menu li{
+        margin: 0 10px;
+    }
+
+    .principal a{
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .comentarios .comentario{
+        width: 300px;
+        margin: 20px 0;
+    }
+    .comentario:last-child{
+        margin: 20px 0 235px 0; 
+    }
+    .comentarios .comentario p{
+        font-size: 15px;
+    }
+
+    .cadastro{
+        max-width: 320px;
+        border-radius: 8px;
+        height: 280px;
+        bottom: -190px;
+    }
+    .cadastro .titulo{
+        font-size: 25px;
+    }
+    .cadastro .formulario input{
+        font-size: 15px;
+    }
+    .cadastro .formulario a{
+        font-size: 15px;
+    }
+
+    .rodape{
+        font-size: 15px;
+        padding: 240px 40px 120px 40px;
+    }
+    .rodape .logo img{
+        width: 130px;
+        margin-bottom: 40px;
+    }
+    .rodape .informacoes{
+        height: 550px;
+    }
+    .rodape .atribuicao{
+        font-size: 13px;
+    }
+}
+
+@media(max-width:435px){
+    .cabecalho{
+        height: 100px;
+    }
+    .cabecalho .logo img{
+        width: 100px;
+    }
+    .cabecalho .menu li{
+        font-size: 14px;
+        margin: 0 8px;
+    }
+
+    .principal img{
+        margin-top: 15px;
+    }
+    .principal h1{
+        font-size: 24px;
+        margin-top: 40px;
+        width: 95%;
+    }
+    .principal p{
+        font-size: 14px;
+        width: 80%;
+    }
+    
+
+    .vantagens .vantagem{
+        justify-content: center;
+    }
+    .vantagens .vantagem img{
+        width: 70px;
+    }
+    .vantagens .vantagem h3{
+        font-size: 17px;
+        margin:17px 0;
+    }
+    .vantagens .vantagem p{
+        font-size: 14px;
+    }
+
+    .produtividade img{
+        margin-top: 100px;
+    }
+    .produtividade .conteudo h2{
+        font-size: 23px;
+    }
+    .produtividade .conteudo p{
+        font-size: 15px;
+    }
+    .produtividade .conteudo a{
+        margin: 20px 0 100px 0;  
+    }
+
+    .comentarios .comentario{
+        width: 270px;
+        margin: 10px 0;
+    }
+    .comentarios .comentario p{
+        font-size:13px;
+    }
+    .comentario:last-child{
+        margin: 10px 0 235px 0; 
+    }
+
+    .cadastro{
+        height: 265px;
+        width: 275px;
+        padding: 20px;
+    }
+    .cadastro .titulo{
+        font-size: 23px;
+    }
+    .cadastro .info {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .cadastro .formulario input{
+        font-size: 13px;
+        width: 85%;
+    }
+    .cadastro .formulario a{
+        font-size: 14px;
+        padding: 14px;
+        width: 85%;
+    }
+
+    .rodape{
+        padding: 240px 40px 70px 40px;
+    }
+    .rodape .informacoes{
+        justify-content: center;
+    }
+    .rodape .informacoes p{
+        width: 290px;
+    }
+    .rodape .informacoes .contato{
+        margin: 20px 0 50px 0;
+    }
+    .rodape .informacoes .sobre{
+        margin-bottom: 30px;
+    }
+    .rodape .informacoes .termos{
+        margin-bottom: 65px;
+    }
+    .rodape .informacoes .social{
+        align-self: center;
+    }
+    .rodape .atribuicao span{
+        margin-right: 8px;
+    }
+}

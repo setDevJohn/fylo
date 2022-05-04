@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body{
+    min-width: 375px;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cabecalho{
+    background-color: hsl(219, 30%, 18%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    height: 200px;
+}
+
+.cabecalho .logo{
+    padding: 30px 45px;
+}
+
+.cabecalho .menu{
+    display: flex;
+    padding: 30px 45px;
+}
+
+.cabecalho .menu li{
+    font-size: 18px;
+    margin: 0 30px;
+}
+
+.cabecalho .menu li a{
+    color: white;
+}
+
+.cabecalho .menu li a:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+
+
+main{
+    position: relative;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: hsl(219, 30%, 18%);
+    color: white;
+    max-height: 1000px;
+    z-index: 1;
+}
+
+.principal img{
+    width: 60%;
+}
+
+.principal h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    width: 60%;
+    margin: 40px;
+}
+
+.principal p{
+    font-size: 18px;
+    width: 38%;
+    text-align: center;
+    margin:20px 0 25px 0;
+}
+
+.principal a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    background-color:  hsl(198, 60%, 50%);
+    margin: 40px 40px 50px 40px;
+    padding: 20px; 
+    width: 200px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.principal a:hover{
+    background-color:hsl(176, 68%, 64%);
+}
+
+.principal::after{
+    content: "";
+    background-image: url(../images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+
+.vantagens{
+    background-color: hsl(218, 28%, 13%);
+    display: grid;
+    grid-template: repeat(2, 250px) / repeat(2, minmax(330px, 430px));
+    align-content: center;
+    justify-content: center;
+    grid-gap: 50px 100px;
+    min-height: 800px;
+}
+
+.vantagens .vantagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    max-width: 430px;
+    height: 250px;
+    padding: 10px;
+}
+
+.vantagens .vantagem h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+.produtividade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(218, 28%, 13%);
+    min-height: 550px;
+}
+
+.produtividade img{
+    width: 40%;
+    margin: 25px;
+}
+
+.produtividade .conteudo{
+    width: 34%;
+    margin: 25px;
+    color:white;
+}
+
+.produtividade .conteudo h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.produtividade .conteudo p{
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.produtividade .conteudo a{
+    color: hsl(176, 68%, 64%);
+    border-bottom: 2px solid;
+    padding-bottom: 2px;
+    width: 170px;
+    display: block;
+    position: relative;
+}
+
+.produtividade .conteudo a:hover{
+    color: white;
+}
+
+
+.produtividade .conteudo a::after{
+    content: "";
+    background: url(../images/icon-arrow.svg) center no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 100%;
+}
+
+
+
+.comentarios{
+    background-color: hsl(218, 28%, 13%);
+    display: flex;
+    justify-content: center;
+    min-height: 600px;
+    position: relative;
+    z-index: 1;
+}
+
+.comentarios .comentario{
+    background-color: hsl(219, 30%, 18%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 343px;
+    height: 210px;
+    margin: 100px 17px 0 17px;
+    border-radius: 3px;
+    box-shadow: 6px 9px 15px rgba(255, 255, 255, 0.015);
+}
+
+.comentarios .comentario.quotes{
+    position: relative;
+} 
+
+.comentarios .comentario.quotes::before{
+    content: "";
+    background: url(../images/bg-quotes.png) no-repeat center;
+    position: absolute;
+    top: -35px;
+    left: -12px;
+    width: 60px;
+    height: 50px;
+    z-index: -1;
+}
+
+.comentarios .comentario p{
+    padding: 20px 20px 0 20px; 
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.comentarios .comentario .autor{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.comentario .autor img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.comentario .autor .info h4{
+    margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.comentario .autor .info p{
+    padding: 0;
+    margin: 0 0 0 10px;
+    font-size: 10px;
+}
+
+
+
+.cadastro{
+    position: absolute;
+    left: 50%;
+    bottom: -100px;
+    transform: translateX(-50%);
+    background-color: hsl(217, 28%, 15%);
+    color: white;
+    width: 800px; 
+    height: 190px;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 7px 10px 15px rgba(0, 0, 0, 0.158);
+    z-index: 1;
+}
+
+.cadastro .titulo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cadastro .info{
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto 40px auto;
+}
+
+.cadastro .formulario{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.cadastro .formulario input{
+    width: 60%;
+    margin-right: 35px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.cadastro .formulario a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    background-color: hsl(198, 60%, 50%);
+    width: 23%;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.cadastro .formulario a:hover{
+    background-color: hsl(176, 68%, 64%);
+}
+
+.cadastro .formulario a:hover p{
+    display: block;
+}
+
+.cadastro .formulario p{
+    display: none;
+    position: absolute;
+    color: hsl(0, 100%, 63%);
+    font-weight: 700;
+    bottom: -29px;
+    left: 10%;
+    font-size: 15px;
+}
+
+
+
+.rodape{
+    position: relative;
+    background-color: hsl(216, 53%, 9%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 160px 115px 120px 115px;
+}
+
+.rodape .informacoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape .informacoes p::before{
+    content: "";
+    background: url(../images/icon-location.svg) center no-repeat;
+    position: absolute;
+    left: -10px;
+    width: 50px;
+    height: 50px;
+}
+
+.rodape .informacoes p{
+    width: 322px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.rodape .informacoes .contato .telefone::before{
+    content: "";
+    background: url(../images/icon-phone.svg) center no-repeat;
+    position: absolute;
+    left: -35px;
+    width:30px;
+    height:22px;
+}
+
+.rodape .informacoes .contato .email::before{
+    content: "";
+    background: url(../images/icon-email.svg) center no-repeat;
+    position: absolute;
+    left: -35px;
+    width:30px;
+    height:22px;
+}
+
+.rodape .informacoes .contato span{
+    position: relative;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.rodape .informacoes .sobre li,
+.rodape .informacoes .termos li{
+    margin-bottom: 12px;
+}
+
+.rodape .informacoes .sobre li a,
+.rodape .informacoes .termos li a{
+    color: white;
+}
+
+.rodape .informacoes .sobre li a:hover,
+.rodape .informacoes .termos li a:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.rodape .informacoes .social a{
+    color:white;
+    font-size: 25px;
+    margin-left: 18px;
+}
+
+.rodape .informacoes .social a:hover{
+    color: hsl(176, 68%, 64%);
+}
+
+.rodape .atribuicao{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rodape .atribuicao span{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.rodape .atribuicao span a{
+    color: white;
+    text-decoration: underline;
+}
