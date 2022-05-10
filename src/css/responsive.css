@@ -316,7 +316,7 @@
     .produtividade .conteudo a{
         font-size: 15px;
         margin: 20px 0 100px 0;  
-        width: 158px;
+        min-width: 158px;
     }
 
     .comentarios .comentario{
@@ -331,7 +331,7 @@
     }
 
     .cadastro{
-        height: 265px;
+        max-height: 340px;
         width: 275px;
         padding: 20px;
     }
