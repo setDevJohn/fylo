@@ -171,15 +171,12 @@ main{
     color: hsl(176, 68%, 64%);
     border-bottom: 2px solid;
     padding-bottom: 2px;
-    width: 170px;
-    display: block;
     position: relative;
 }
 
 .produtividade .conteudo a:hover{
     color: white;
 }
-
 
 .produtividade .conteudo a::after{
     content: "";
@@ -261,7 +258,7 @@ main{
 .cadastro{
     position: absolute;
     left: 50%;
-    bottom: -100px;
+    bottom: -125px;
     transform: translateX(-50%);
     background-color: hsl(217, 28%, 15%);
     color: white;
