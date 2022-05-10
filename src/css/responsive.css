@@ -107,22 +107,33 @@
 
     .rodape{
         font-size: 16px;
-        padding: 160px 75px 120px 75px;
+        padding: 160px 40px 120px 40px;
     }
     .rodape .informacoes{
         flex-direction: column;
         align-items: flex-start;
-        justify-content: space-between;
+        justify-content: center;
         height: 600px;
     }
     .rodape .informacoes p{
         width: 300px;
+        margin-bottom: 20px;
     }
     .rodape .informacoes .contato{
         padding-left: 40px;
+        margin-bottom: 60px;
+    }
+    .rodape .informacoes .sobre{
+        margin-bottom: 30px;
+    }
+    .rodape .informacoes .termos{
+        margin-bottom: 60px;
     }
     .rodape .informacoes .social a:first-child{
         margin-left: 0;
+    }
+    .rodape .informacoes .social{
+        align-self: center;
     }
     .rodape .atribuicao{
         width: 100%;
@@ -239,7 +250,7 @@
 
     .rodape{
         font-size: 15px;
-        padding: 240px 40px 120px 40px;
+        padding: 240px 30px 120px 30px;
     }
     .rodape .logo img{
         width: 130px;
@@ -303,7 +314,9 @@
         font-size: 15px;
     }
     .produtividade .conteudo a{
+        font-size: 15px;
         margin: 20px 0 100px 0;  
+        width: 158px;
     }
 
     .comentarios .comentario{
@@ -339,9 +352,7 @@
         width: 85%;
     }
 
-    .rodape{
-        padding: 240px 40px 70px 40px;
-    }
+    
     .rodape .informacoes{
         justify-content: center;
     }
@@ -356,9 +367,6 @@
     }
     .rodape .informacoes .termos{
         margin-bottom: 65px;
-    }
-    .rodape .informacoes .social{
-        align-self: center;
     }
     .rodape .atribuicao span{
         margin-right: 8px;

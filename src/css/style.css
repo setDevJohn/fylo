@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 body{
-    min-width: 375px;
     max-width: 1440px;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
@@ -340,6 +339,10 @@ main{
     display: flex;
     flex-direction: column;
     padding: 160px 115px 120px 115px;
+}
+
+.rodape .logo{
+    margin-bottom: 30px;
 }
 
 .rodape .informacoes{
