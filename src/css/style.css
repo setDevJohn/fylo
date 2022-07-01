@@ -331,7 +331,7 @@ main{
 
 .rodape{
     position: relative;
-    background-color: hsl(216, 53%, 9%);
+    background-color: #0b1523;
     color: white;
     display: flex;
     flex-direction: column;
