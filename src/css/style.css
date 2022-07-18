@@ -313,11 +313,11 @@ main{
     background-color: hsl(176, 68%, 64%);
 }
 
-.cadastro .formulario a:hover p{
+.cadastro .formulario .alerta-invalido.campo-invalido{
     display: block;
 }
 
-.cadastro .formulario p{
+.cadastro .formulario .alerta-invalido{
     display: none;
     position: absolute;
     color: hsl(0, 100%, 63%);
