@@ -2,6 +2,8 @@
 Desafio feito do Fontend Mentor de uma landing page projetada com Flex e Grid, e a utilização de javascript para validação de email.
 
 ## 🔗 Acesso ao projeto
+<a href="https://jhonyfreitasdev.github.io/projeto-fylo/">Clique aqui para ir para a página</a>
+
 [<img src="src/images/tela-fylo.gif">](https://jhonyfreitasdev.github.io/projeto-fylo/)
 
 ## 💪🏻 Desafios enfrentados
